@@ -1,7 +1,7 @@
 from setuptools import setup
 
 package = "tranx"
-version = "0.0.1"
+version = "0.0.2"
 
 setup(name = package,
       version = version,
@@ -14,6 +14,7 @@ setup(name = package,
       install_requires = [
       ],
       extras_require = {
+          'google': ['googletrans']
       },
       package_data = {
       },
